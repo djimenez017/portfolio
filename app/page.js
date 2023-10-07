@@ -2,6 +2,7 @@ import Image from "next/image";
 import Logo from "@/assets/images/logo.svg";
 import Button from "@/components/ui/Button";
 import About from "@/components/sections/About";
+import Projects from "@/components/sections/Projects";
 
 export default function Home() {
   return (
@@ -24,23 +25,23 @@ export default function Home() {
           <Image src={Logo} width={350} height={350} alt="Daniel Jimenez" />
         </div>
       </section>
-      <section class="h-screen max-h-[1080px] flex items-center" id="About">
+      <section className="h-screen max-h-[1080px] flex items-center" id="About">
         <About />
       </section>
       <section
-        class="h-screen max-h-[1080px] flex items-center justify-center"
+        className="max-w-1280 h-screen max-h-[1080px] flex items-center justify-center mx-auto"
         id="Projects"
       >
-        Projects
+        <Projects />
       </section>
       <section
-        class="h-screen max-h-[1080px] flex items-center justify-center"
+        className="max-w-1280 h-screen max-h-[1080px] flex items-center justify-center mx-auto"
         id="Blog"
       >
         Blog
       </section>
       <section
-        class="h-screen max-h-[1080px] flex items-center justify-center"
+        className="max-w-1280 h-screen max-h-[1080px] flex items-center justify-center mx-auto"
         id="Contact"
       >
         Contact

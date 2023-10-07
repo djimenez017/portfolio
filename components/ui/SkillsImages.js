@@ -12,7 +12,7 @@ import Image from "next/image";
 export default function SkillsImages() {
   return (
     <div className="w-full flex flex-col mx-auto ">
-      <div class="w-full flex flex-row sm:w-1/2 md:w-1/3 p-4 ">
+      <div className="w-full flex flex-row sm:w-1/2 md:w-1/3 p-4 ">
         <Image
           src={Html}
           width={150}
@@ -29,7 +29,7 @@ export default function SkillsImages() {
           className=" m-4"
         />{" "}
       </div>
-      <div class="w-full flex flex-row sm:w-1/2 md:w-1/3 p-4">
+      <div className="w-full flex flex-row sm:w-1/2 md:w-1/3 p-4">
         <Image
           src={Javascript}
           width={150}
@@ -52,7 +52,7 @@ export default function SkillsImages() {
           className=" m-4"
         />{" "}
       </div>
-      <div class="w-full flex flex-row sm:w-1/2 md:w-1/3 p-4">
+      <div className="w-full flex flex-row sm:w-1/2 md:w-1/3 p-4">
         <Image
           src={GraphQL}
           width={150}

@@ -23,7 +23,6 @@ function Navigation() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-  console.log(scrolling);
 
   return (
     <header
