@@ -17,12 +17,12 @@ export default function Card({
   const techStack = JSON.stringify(tech);
 
   return (
-    <div className="bg-grey border border-orange max-w-sm dark:bg-gray-800 dark:border-gray-700 mr-5">
+    <div className="bg-grey border border-orange max-w-sm dark:bg-gray-800 dark:border-gray-700 mr-5 mb-5 w-full">
       <Image
         src={image}
         height={300}
         width={250}
-        className="w-full object-cover"
+        className="w-full object-cover hidden md:visible"
       />
       <div className="p-5">
         <a href="#">
