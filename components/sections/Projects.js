@@ -1,10 +1,7 @@
 import ProjectsList from "@/assets/files/Projects";
 import Card from "@/components/ui/Card";
-import ExpenseSC from "@/assets/images/Projects/expenses.gif";
-import LittleSC from "@/assets/images/Projects/LittleLemon.png";
 
 const ListofProjects = ProjectsList.map((project) => {
-  console.log(project.title);
   return (
     <Card
       title={project.title}
@@ -14,15 +11,19 @@ const ListofProjects = ProjectsList.map((project) => {
       tech={project.tech}
       description={project.description}
       image={project.image}
+      link={project.link}
+      key={project.id}
     />
   );
 });
 
 export default function Projects() {
   return (
-    <div>
-      Projects
-      {ListofProjects}
+    <div className="flex flex-col  ">
+      <h2 className="text-5xl font-bold py-6 text-orange font-custom ">
+        Projects{" "}
+      </h2>
+      <div className="flex md:flex-row flex-col">{ListofProjects}</div>
     </div>
   );
 }

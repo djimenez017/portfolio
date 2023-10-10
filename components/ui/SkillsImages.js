@@ -11,69 +11,75 @@ import Image from "next/image";
 
 export default function SkillsImages() {
   return (
-    <div className="w-full flex flex-col mx-auto ">
-      <div className="w-full flex flex-row sm:w-1/2 md:w-1/3 p-4 ">
-        <Image
-          src={Html}
-          width={150}
-          height={150}
-          alt="HTML"
-          className="  m-4"
-        />{" "}
-        <Image src={Css} width={150} height={150} alt="CSS" className=" m-4" />{" "}
+    <div className="grid grid-cols-4 md:grid-cols-3 gap-1 bg-lightGrey">
+      <div className="p-4 ">
+        <Image src={Html} width={120} height={120} alt="HTML" className="" />
+      </div>
+      <div className="p-4">
+        <Image src={Css} width={120} height={120} alt="CSS" className="" />
+      </div>
+      <div className="p-4">
         <Image
           src={Tailwind}
-          width={150}
-          height={150}
+          width={120}
+          height={120}
           alt="Tailwind"
-          className=" m-4"
-        />{" "}
+          className="grid place-content-center"
+        />
       </div>
-      <div className="w-full flex flex-row sm:w-1/2 md:w-1/3 p-4">
+      <div className="p-4">
         <Image
           src={Javascript}
-          width={150}
-          height={150}
+          width={120}
+          height={120}
           alt="Javascript"
-          className=" m-4"
-        />{" "}
+          className=""
+        />
+      </div>
+      <div className="p-4">
         <Image
           src={ReactLogo}
-          width={150}
-          height={150}
+          width={120}
+          height={120}
           alt="ReactJS"
-          className=" m-4"
-        />{" "}
+          className=""
+        />
+      </div>
+      <div className="p-4">
         <Image
           src={Next}
-          width={150}
-          height={150}
+          width={120}
+          height={120}
           alt="NextJS"
-          className=" m-4"
-        />{" "}
+          className="grid place-items-center"
+        />
       </div>
-      <div className="w-full flex flex-row sm:w-1/2 md:w-1/3 p-4">
+      <div className="p-4">
         <Image
           src={GraphQL}
-          width={150}
-          height={150}
+          width={120}
+          height={120}
           alt="GraphQL"
-          className=" m-4"
-        />{" "}
+          className=""
+        />
+      </div>
+      <div className="p-4">
         <Image
           src={Prisma}
-          width={150}
-          height={150}
+          width={120}
+          height={120}
           alt="Prisma"
-          className=" m-4"
-        />{" "}
+          className="grid place-items-center"
+        />
+      </div>
+      <div className="p-4">
         <Image
           src={Express}
-          width={150}
-          height={150}
+          width={120}
+          height={120}
           alt="Express"
-          className=" m-4"
-        />{" "}
+          className="grid place-items-center"
+        />
       </div>
     </div>
   );

@@ -26,8 +26,8 @@ function Navigation() {
 
   return (
     <header
-      className={`w-full flex justify-evenly items-center transition-all duration-300 ${
-        scrolling ? "bg-lightGrey sticky top-0 " : ""
+      className={`w-full flex justify-evenly items-center transition-all duration-300 z-1 ${
+        scrolling ? "bg-black sticky top-0 " : ""
       }`}
     >
       <nav className="flex flex-row w-11/12 text-white p-4 justify-between list-none max-w-screen-2xl text-center">

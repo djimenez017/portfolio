@@ -1,33 +1,61 @@
 import React from "react";
 import Image from "next/image";
-import Expense from "@/assets/images/Projects/expenses.gif";
-import Little from "@/assets/images/Projects/expenses.gif";
+import Link from "next/link";
+import Button from "@/components/ui/Button";
 
-export default function Card(props) {
-  console.log(props);
+export default function Card({
+  title,
+  url,
+  git1,
+  git2,
+  tech,
+  description,
+  image,
+  link,
+  id,
+}) {
+  const techStack = JSON.stringify(tech);
+
   return (
-    <div className="flex flex-col justify-center text-white m-3">
-      <div className="flex flex-col sm:flex-row sm:space-x-5 md:space-y-0 p-3 max-w-xs sm:max-w-3xl mx-auto border border-orange bg-grey">
-        <div className="w-full sm:w-1/3 bg-grey grid place-items-center">
-          <Image src={Expense} width={450} height={450} />
-        </div>
-        <div className="w-full sm:w-2/3 bg-grey flex flex-col p-3">
-          <h3 className="font-black md:text-3xl text-xl font-custom text-orange">
-            {props.title}
-          </h3>
-          <p className="sm:text-lg text-gray-500 text-base">
-            {props.description}
-          </p>{" "}
-          <br />
-          <p className="">
-            Technologies Used: <br />
-            <br />
-            {props.tech.map((techs) => {
-              return <span className="bg-orange m-1 p-1">{techs}</span>;
-            })}
-          </p>
-        </div>
-      </div>
+    <div className="bg-grey border border-orange max-w-sm dark:bg-gray-800 dark:border-gray-700 mr-5">
+      <Image
+        src={image}
+        height={300}
+        width={250}
+        className="w-full object-cover"
+      />
+      <div className="p-5">
+        <a href="#">
+          <h5 className="text-gray-900 font-bold text-2xl tracking-tight mb-2 dark:text-white">
+            {title}
+          </h5>
+        </a>
+        <p className="font-normal text-gray-700 mb-3 dark:text-gray-400">
+          {description}
+        </p>{" "}
+        <Link
+          href={{
+            pathname: `/projects/${link}`,
+            query: {
+              title,
+              url,
+              git1,
+              git2,
+              tech: techStack,
+              description,
+              image,
+              link,
+              id,
+            },
+          }}
+          className="border-2 border-orange  px-8 py-2 mr-2 text-orange cursor-pointer hover:bg-orange hover:text-white transition duration-300 ease-in-out font-custom text-xl"
+        >
+          View More{" "}
+        </Link>
+        <Button href={url} target={"_blank"}>
+          Live Site
+        </Button>
+      </div>{" "}
     </div>
   );
 }
