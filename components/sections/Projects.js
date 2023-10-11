@@ -23,7 +23,9 @@ export default function Projects() {
       <h2 className="text-5xl font-bold py-6 text-orange font-custom ">
         Projects{" "}
       </h2>
-      <div className="flex md:flex-row flex-col">{ListofProjects}</div>
+      <div className="flex md:flex-row flex-col items-center justify-center ">
+        {ListofProjects}
+      </div>
     </div>
   );
 }

@@ -7,7 +7,7 @@ import Lemon from "@/assets/images/Projects/LittleLemon.png";
 import Jmg from "@/assets/images/Projects/jmg.png";
 import Button from "@/components/ui/Button";
 
-export default function page() {
+export default function Page() {
   const searchParams = useSearchParams();
   const title = searchParams.get("title");
   const url = searchParams.get("url");
