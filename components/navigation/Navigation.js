@@ -30,7 +30,7 @@ function Navigation() {
         scrolling ? "bg-black sticky top-0 " : ""
       }`}
     >
-      <nav className="flex flex-row w-11/12 text-white p-4 justify-between list-none max-w-screen-2xl text-center">
+      <nav className="flex flex-row w-11/12 text-white p-4 justify-between list-none max-w-screen-2xl text-center md:w-[1200px]">
         <Link href="/">
           {" "}
           <Image src={Logo} width={40} height={40} alt="Daniel Jimenez" />
