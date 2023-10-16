@@ -15,6 +15,9 @@ module.exports = {
       white: "#f4f4f4",
       orange: "#ed6f07",
     },
+    screens: {
+      md: "840px",
+    },
     extend: {
       fontFamily: {
         custom: ["Blackhawk", "sans"],
