@@ -18,9 +18,9 @@ export default function Landing() {
           <Button href={"/#Contact"}>Contact</Button>
         </div>
       </div>
-      <div className="w-1/2 flex justify-center invisible md:visible">
+      <div className="w-1/2 flex justify-center invisible lg:visible">
         <Image src={Logo} width={350} height={350} alt="Daniel Jimenez" />
-      </div>
+      </div>{" "}
     </div>
   );
 }
