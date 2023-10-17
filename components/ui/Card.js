@@ -15,7 +15,7 @@ export default function Card({
   id,
 }) {
   const techStack = JSON.stringify(tech);
-  console.log(link);
+
   return (
     <div className="bg-grey border border-orange max-w-sm dark:bg-gray-800 dark:border-gray-700 md:mr-5 mb-5">
       <Image
@@ -26,7 +26,7 @@ export default function Card({
       />
       <div className="p-5">
         <a href="#">
-          <h5 className="text-gray-900 font-bold text-2xl tracking-tight mb-2 dark:text-white">
+          <h5 className="text-gray-900 font-bold text-xl lg:text-2xl tracking-tight mb-2 dark:text-white">
             {title}
           </h5>
         </a>
@@ -48,7 +48,7 @@ export default function Card({
               id,
             },
           }}
-          className="border-2 border-orange  px-8 py-2 mr-2 text-orange cursor-pointer hover:bg-orange hover:text-white transition duration-300 ease-in-out font-custom text-xl"
+          className="border-2 border-orange  px-8 py-2 mr-2 text-orange cursor-pointer hover:bg-orange hover:text-white transition duration-300 ease-in-out font-custom lg:text-xl"
         >
           View More{" "}
         </Link>
