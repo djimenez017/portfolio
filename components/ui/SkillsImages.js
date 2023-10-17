@@ -11,7 +11,7 @@ import Image from "next/image";
 
 export default function SkillsImages() {
   return (
-    <div className="grid grid-cols-4 md:grid-cols-3 gap-1 bg-lightGrey">
+    <div className="grid grid-cols-4 lg:grid-cols-3 gap-1 bg-lightGrey">
       <div className="p-4 ">
         <Image src={Html} width={120} height={120} alt="HTML" className="" />
       </div>

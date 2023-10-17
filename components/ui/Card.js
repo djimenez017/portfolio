@@ -15,7 +15,7 @@ export default function Card({
   id,
 }) {
   const techStack = JSON.stringify(tech);
-
+  console.log(link);
   return (
     <div className="bg-grey border border-orange max-w-sm dark:bg-gray-800 dark:border-gray-700 md:mr-5 mb-5">
       <Image
