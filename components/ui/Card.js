@@ -23,6 +23,7 @@ export default function Card({
         height={300}
         width={250}
         className="w-full object-cover hidden md:block "
+        alt={title}
       />
       <div className="p-5">
         <a href="#">
@@ -32,7 +33,7 @@ export default function Card({
         </a>
         <p className="font-normal text-gray-700 mb-3 dark:text-gray-400">
           {description}
-        </p>{" "}
+        </p>
         <div className="flex">
           <Link
             href={{
@@ -51,13 +52,13 @@ export default function Card({
             }}
             className="w-48 border-2 px-6 py-3 border-orange flex justify-around items-center text-orange cursor-pointer hover:bg-orange hover:text-white transition duration-300 ease-in-out font-custom lg:text-xl"
           >
-            View More{" "}
+            View More
           </Link>
           <Button href={url} target={"_blank"} customClasses="ml-2">
             Live Site
           </Button>
         </div>
-      </div>{" "}
+      </div>
     </div>
   );
 }
