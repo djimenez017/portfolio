@@ -32,7 +32,7 @@ const projects = [
     url: "",
     github: "https://github.com/djimenez017/react-capstone-project",
     github2: "",
-    tech: ["ReactJS", "CSS"],
+    tech: ["ReactJS", "CSS", "Netlify"],
     description:
       "Final project for the Meta Front-End Developer Professional Certificate. This was a Website for the the ficticious restaurant Little Lemon.  ",
   },
@@ -44,8 +44,9 @@ const projects = [
     url: "https://jmg13.com/",
     github: "https://github.com/djimenez017/JMGPhotography",
     github2: "",
-    tech: ["ReactJS", "Styled-Components", "GatsbyJS"],
-    description: "Final Project for my Web Design class in College.",
+    tech: ["ReactJS", "Styled-Components", "GatsbyJS", "Netlify"],
+    description:
+      "Final Project for my Web Design class in College. The project was to build a site for a real life business.",
   },
 ];
 

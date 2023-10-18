@@ -33,28 +33,30 @@ export default function Card({
         <p className="font-normal text-gray-700 mb-3 dark:text-gray-400">
           {description}
         </p>{" "}
-        <Link
-          href={{
-            pathname: `/projects/${link}`,
-            query: {
-              title,
-              url,
-              git1,
-              git2,
-              tech: techStack,
-              description,
-              image,
-              link,
-              id,
-            },
-          }}
-          className="border-2 border-orange  px-8 py-2 mr-2 text-orange cursor-pointer hover:bg-orange hover:text-white transition duration-300 ease-in-out font-custom lg:text-xl"
-        >
-          View More{" "}
-        </Link>
-        <Button href={url} target={"_blank"}>
-          Live Site
-        </Button>
+        <div className="flex">
+          <Link
+            href={{
+              pathname: `/projects/${link}`,
+              query: {
+                title,
+                url,
+                git1,
+                git2,
+                tech: techStack,
+                description,
+                image,
+                link,
+                id,
+              },
+            }}
+            className="w-48 border-2 px-6 py-3 border-orange flex justify-around items-center text-orange cursor-pointer hover:bg-orange hover:text-white transition duration-300 ease-in-out font-custom lg:text-xl"
+          >
+            View More{" "}
+          </Link>
+          <Button href={url} target={"_blank"} customClasses="ml-2">
+            Live Site
+          </Button>
+        </div>
       </div>{" "}
     </div>
   );

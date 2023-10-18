@@ -5,24 +5,23 @@ import Contact from "@/components/sections/Contact";
 
 export default function Home() {
   return (
-    // md:w-[1200px]
-    <main className=" mx-auto md:min-w-1200 ">
+    <main className=" mx-auto md:min-w-1200  ">
       <section
-        className="max-w-1280 h-screen max-h-[1080px] flex mx-auto items-center justify-center lg:w-[1200px]"
+        className="max-w-1280 h-screen max-h-[1080px] flex mx-auto items-center justify-center lg:w-[1200px] "
         id="Home"
       >
         <Landing />
       </section>
 
       <section
-        className="max-w-1280 h-screen max-h-[1080px] flex mx-auto items-center justify-center lg:w-[1200px]"
+        className="max-w-1280 h-screen max-h-[1080px] flex mx-auto items-center justify-center lg:w-[1200px] "
         id="About"
       >
         <About />
       </section>
 
       <section
-        className="max-w-1280 h-screen max-h-[1080px] flex mx-auto items-center justify-center lg:w-[1200px]"
+        className="max-w-1280 h-screen max-h-[1080px] flex mx-auto items-center justify-center lg:w-[1200px] "
         id="Projects"
       >
         <Projects />
