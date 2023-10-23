@@ -1,5 +1,5 @@
 import SkillsImages from "../ui/SkillsImages";
-import Button from "../ui/Button";
+// import Button from "../ui/Button";
 // import Resume from "@/public/DanielJimenez-WebDeveloper.pdf";
 
 export default function About() {
@@ -11,9 +11,9 @@ export default function About() {
         </h2>
         <p className="text-lg lg:text-xl lg:pr-10">
           I am a web developer with 5 years of coding experience and 2 years of
-          professional work. I'm driven by a passion for learning and staying
+          professional work. I am driven by a passion for learning and staying
           current with the latest techniques and best practices. I'm not just a
-          developer; I'm a lifelong learner.
+          developer; I am a lifelong learner.
           <br />
           {/* <Button href={Resume}>Download my resume</Button> */}
         </p>
