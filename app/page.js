@@ -2,6 +2,7 @@ import Landing from "@/components/sections/Landing";
 import About from "@/components/sections/About";
 import Projects from "@/components/sections/Projects";
 import Contact from "@/components/sections/Contact";
+// import Blog from "@/components/sections/Blog";
 
 export default function Home() {
   return (
@@ -27,12 +28,12 @@ export default function Home() {
         <Projects />
       </section>
 
-      <section
+      {/* <section
         className="max-w-1280 h-screen max-h-[1080px] flex mx-auto items-center justify-center lg:w-[1200px]"
         id="Blog"
       >
-        Blog
-      </section>
+        <Blog />
+      </section> */}
 
       <section
         className="max-w-1280 h-screen max-h-[1080px] flex mx-auto items-center justify-center lg:w-[1200px]"

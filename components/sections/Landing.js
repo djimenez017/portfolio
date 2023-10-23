@@ -14,7 +14,8 @@ export default function Landing() {
             Daniel Jimenez
           </h1>
           <p className="text-white text-lg lg:text-2xl">
-            Front-end developer from Los Angeles, California
+            I am a passionate Web developer with a knack for turning ideas into
+            stunning digital experiences.
           </p>
           <br></br>
           <Button href={"/#Contact"}>Contact</Button>

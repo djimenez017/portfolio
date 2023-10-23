@@ -1,4 +1,6 @@
 import SkillsImages from "../ui/SkillsImages";
+import Button from "../ui/Button";
+// import Resume from "@/public/DanielJimenez-WebDeveloper.pdf";
 
 export default function About() {
   return (
@@ -8,11 +10,12 @@ export default function About() {
           About
         </h2>
         <p className="text-lg lg:text-xl lg:pr-10">
-          It was my senior year of college, my objective was to graduate with my
-          degree in Computer Information Technology. I was in a Web development
-          class as part of my minor and I knew at that moment I wanted to be a
-          Developer <br />
+          I am a web developer with 5 years of coding experience and 2 years of
+          professional work. I'm driven by a passion for learning and staying
+          current with the latest techniques and best practices. I'm not just a
+          developer; I'm a lifelong learner.
           <br />
+          {/* <Button href={Resume}>Download my resume</Button> */}
         </p>
       </div>
       <div className="w-10/12 lg:w-1/2 flex flex-col mx-auto">

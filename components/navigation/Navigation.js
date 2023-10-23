@@ -48,12 +48,12 @@ function Navigation() {
         >
           Projects
         </Link>
-        <Link
+        {/* <Link
           href="/#Blog"
           className="hidden md:block uppercase  hover:text-orange active:bg-orange transition duration-300 ease-in-out font-custom lg:text-xl"
         >
           Blog
-        </Link>
+        </Link> */}
         <Link
           href="/#Contact"
           className="hidden md:block uppercase hover:text-orange active:bg-orange transition duration-300 ease-in-out font-custom lg:text-xl"
