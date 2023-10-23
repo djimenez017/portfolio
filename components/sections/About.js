@@ -12,7 +12,7 @@ export default function About() {
         <p className="text-lg lg:text-xl lg:pr-10">
           I am a web developer with 5 years of coding experience and 2 years of
           professional work. I am driven by a passion for learning and staying
-          current with the latest techniques and best practices. I'm not just a
+          current with the latest techniques and best practices. I am not just a
           developer; I am a lifelong learner.
           <br />
           {/* <Button href={Resume}>Download my resume</Button> */}
