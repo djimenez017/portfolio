@@ -1,6 +1,4 @@
 import SkillsImages from "../ui/SkillsImages";
-// import Button from "../ui/Button";
-// import Resume from "@/public/DanielJimenez-WebDeveloper.pdf";
 
 export default function About() {
   return (
@@ -15,7 +13,6 @@ export default function About() {
           current with the latest techniques and best practices. I am not just a
           developer; I am a lifelong learner.
           <br />
-          {/* <Button href={Resume}>Download my resume</Button> */}
         </p>
       </div>
       <div className="w-10/12 lg:w-1/2 flex flex-col mx-auto">
