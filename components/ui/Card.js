@@ -31,9 +31,17 @@ export default function Card({
             {title}
           </h5>
         </a>
-        <p className="font-normal text-gray-700 mb-3 dark:text-gray-400">
+        <p
+          className="font-normal text-gray-700 mb-3 dark:text-gray-400"
+          style={{
+            height: "6em", // Adjust the height as needed
+            overflow: "hidden",
+            textOverflow: "ellipsis",
+          }}
+        >
           {description}
         </p>
+
         <div className="flex">
           <Link
             href={{

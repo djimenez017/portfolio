@@ -19,11 +19,13 @@ const ListofProjects = ProjectsList.map((project) => {
 
 export default function Projects() {
   return (
-    <div className="flex flex-col text-center md:text-left">
+    <div className="flex flex-col w-10/12 lg:w-1/2  mx-auto ">
       <h2 className="text-2xl lg:text-5xl font-bold py-6 text-orange font-custom ">
         Projects{" "}
       </h2>
-      <div className="flex items-center justify-center ">{ListofProjects}</div>
+      <div className="flex items-center justify-center flex-wrap lg:flex-nowrap ">
+        {ListofProjects}
+      </div>
     </div>
   );
 }
