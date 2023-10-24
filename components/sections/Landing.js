@@ -5,7 +5,7 @@ import Button from "@/components/ui/Button";
 export default function Landing() {
   return (
     <div className="md:w-full flex flex-col md:flex-row ">
-      <div className=" w-10/12 lg:w-1/2 flex mx-auto  ">
+      <div className=" w-10/12 lg:w-1/2 flex flex-col mx-auto ">
         <div className=" md:mx-auto text-left">
           <p className="text-lightGrey text-sm lg:text-lg">
             Hello there, my name is
@@ -21,7 +21,7 @@ export default function Landing() {
           <Button href={"/#Contact"}>Contact</Button>
         </div>
       </div>
-      <div className="w-1/2 flex justify-center invisible lg:visible">
+      <div className="w-1/2 justify-center hidden lg:flex">
         <Image src={Logo} width={350} height={350} alt="Daniel Jimenez" />
       </div>{" "}
     </div>

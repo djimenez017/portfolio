@@ -22,7 +22,7 @@ export default function Card({
         src={image}
         height={300}
         width={250}
-        className="w-full object-cover hidden md:block "
+        className="w-full object-cover hidden lg:block "
         alt={title}
       />
       <div className="p-5">
