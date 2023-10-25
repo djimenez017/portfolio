@@ -7,7 +7,7 @@ function Button(props) {
   return (
     <Link href={props.href} target={props.target}>
       <button
-        className={`w-48 border-2 px-8 py-3 border-orange flex justify-around items-center text-orange cursor-pointer hover:bg-orange hover:text-white transition duration-300 ease-in-out font-custom lg:text-xl ${flexClasses} ${customClasses}`}
+        className={`w-48 border-2 px-6 py-3 border-orange flex justify-around items-center text-orange cursor-pointer hover:bg-orange hover:text-white transition duration-300 ease-in-out font-custom lg:text-lg ${flexClasses} ${customClasses}`}
       >
         <span>{props.children} </span>
         <p>{props.text}</p>

@@ -52,12 +52,10 @@ export default function Page() {
 
       <br />
       <div className="w-10/12 md:w-1/2 flex flex-col mx-auto ">
-        <h2 className="text-5xl font-bold py-6 text-orange font-custom">
-          {title}
-        </h2>
+        <h2 className="text-5xl font-bold py-6 text-orange">{title}</h2>
         <br />
         <p>{description}</p> <br />
-        <p className="font-custom text-lg">The Stack</p>
+        <p className=" text-lg">The Stack</p>
         <div className="flex flex-row flex-wrap">{stack}</div> <br />
         <br />
         <div className="flex flex-row flex-wrap">

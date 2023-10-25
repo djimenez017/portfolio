@@ -38,25 +38,25 @@ function Navigation() {
 
         <Link
           href="/#About"
-          className="hidden md:block uppercase  hover:text-orange active:bg-orange transition duration-300 ease-in-out font-custom lg:text-xl"
+          className="hidden md:block uppercase  hover:text-orange active:bg-orange transition duration-300 ease-in-out  lg:text-xl"
         >
           About
         </Link>
         <Link
           href="/#Projects"
-          className="hidden md:block uppercase  hover:text-orange active:bg-orange transition duration-300 ease-in-out font-custom lg:text-xl"
+          className="hidden md:block uppercase  hover:text-orange active:bg-orange transition duration-300 ease-in-out  lg:text-xl"
         >
           Projects
         </Link>
         {/* <Link
           href="/#Blog"
-          className="hidden md:block uppercase  hover:text-orange active:bg-orange transition duration-300 ease-in-out font-custom lg:text-xl"
+          className="hidden md:block uppercase  hover:text-orange active:bg-orange transition duration-300 ease-in-out  lg:text-xl"
         >
           Blog
         </Link> */}
         <Link
           href="/#Contact"
-          className="hidden md:block uppercase hover:text-orange active:bg-orange transition duration-300 ease-in-out font-custom lg:text-xl"
+          className="hidden md:block uppercase hover:text-orange active:bg-orange transition duration-300 ease-in-out  lg:text-xl"
         >
           Contact
         </Link>

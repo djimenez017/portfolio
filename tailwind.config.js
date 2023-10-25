@@ -23,7 +23,10 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        custom: ["Blackhawk", "sans"],
+        fontFamily: {
+          custom: ["var(--font-custom)"],
+          custom2: ["var(--font-custom2)"],
+        },
       },
     },
   },

@@ -9,7 +9,7 @@ export default function Contact() {
         Contact Me
       </h2>
       <p className="text-lg lg:text-xl">
-        Want to talk about Javascript, movies, or video games? Reach out to me
+        Want to talk about Javascript, movies, or video games? <br />  Reach out to me
         if you would like to talk about my experiences or if you need help with
         a project.
       </p>
