@@ -33,14 +33,14 @@ export default function Page() {
   switch (title) {
     case "Expense App":
       projectImage = (
-        <Image src={Expense} width={800} height={600} alt={title} />
+        <Image src={Expense} width={600} height={300} alt={title} />
       );
       break;
     case "Little Lemon":
-      projectImage = <Image src={Lemon} width={800} height={600} alt={title} />;
+      projectImage = <Image src={Lemon} width={600} height={300} alt={title} />;
       break;
     case "JMG Photography":
-      projectImage = <Image src={Jmg} width={800} height={600} alt={title} />;
+      projectImage = <Image src={Jmg} width={600} height={300} alt={title} />;
       break;
     default:
       break;
@@ -59,19 +59,21 @@ export default function Page() {
         <div className="flex flex-row flex-wrap">{stack}</div> <br />
         <br />
         <div className="flex flex-row flex-wrap">
-          <Button href={git1} target="_blank">
+          <Button href={git1} target="_blank" customClasses="mr-1">
             Github
           </Button>
           <br />
           {git2 === "" ? (
             ""
           ) : (
-            <Button href={git2} target="_blank">
+            <Button href={git2} target="_blank" customClasses="mr-1">
               Git Back-end
             </Button>
           )}{" "}
           <br />
-          <Button href={url}>Live Site</Button>
+          <Button href={url} target="_blank" customClasses="mr-1">
+            Live Site
+          </Button>
         </div>
       </div>
     </div>
