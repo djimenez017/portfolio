@@ -5,13 +5,13 @@ import Button from "../ui/Button";
 export default function Contact() {
   return (
     <div className="flex flex-col items-center text-center w-10/12">
-      <h2 className="text-2xl lg:text-5xl font-bold py-6 text-orange font-custom">
+      <h2 className="text-2xl lg:text-5xl font-bold py-6 text-orange ">
         Contact Me
       </h2>
       <p className="text-lg lg:text-xl">
-        Want to talk about Javascript, movies, or video games? <br />  Reach out to me
-        if you would like to talk about my experiences or if you need help with
-        a project.
+        Want to talk about Javascript, movies, or video games? <br /> Reach out
+        to me if you would like to talk about my experiences or if you need help
+        with a project.
       </p>
       <br />
       <br />

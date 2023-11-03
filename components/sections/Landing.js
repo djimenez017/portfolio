@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Logo from "@/assets/images/logo.svg";
 import Button from "@/components/ui/Button";
+import Link from "next/link";
 
 export default function Landing() {
   return (
@@ -18,7 +19,21 @@ export default function Landing() {
             stunning digital experiences.
           </p>
           <br></br>
-          <Button href={"/#Contact"}>Contact</Button>
+          <div className="flex">
+            <Button href={"/#Contact"} customClasses="mr-2">
+              Contact
+            </Button>
+            <Link
+              href={"/DanielJimenez-WebDeveloper.pdf"}
+              target="_blank"
+              rel="noopener noreferrer"
+              locale={false}
+              download
+              className="w-48 border-2 px-6 py-3 border-orange flex justify-around items-center text-orange cursor-pointer hover:bg-orange hover:text-white transition duration-300 ease-in-out lg:text-lg"
+            >
+              My Resume
+            </Link>
+          </div>
         </div>
       </div>
       <div className="w-1/2 justify-center hidden lg:flex">

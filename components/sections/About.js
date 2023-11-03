@@ -1,4 +1,7 @@
 import SkillsImages from "../ui/SkillsImages";
+import Button from "../ui/Button";
+// import Resume from "@/public/DanielJimenez-WebDeveloper.pdf";
+import Link from "next/link";
 
 export default function About() {
   return (
@@ -13,7 +16,24 @@ export default function About() {
           current with the latest techniques and best practices. I am not just a
           developer; I am a lifelong learner.
           <br />
-        </p>
+        </p>{" "}
+        <br />
+        <div className="flex">
+          {" "}
+          <Button href="/About" customClasses="mr-2">
+            About Me
+          </Button>
+          <Link
+            href={"/DanielJimenez-WebDeveloper.pdf"}
+            target="_blank"
+            rel="noopener noreferrer"
+            locale={false}
+            download
+            className="w-48 border-2 px-6 py-3 border-orange flex justify-around items-center text-orange cursor-pointer hover:bg-orange hover:text-white transition duration-300 ease-in-out lg:text-lg"
+          >
+            My Resume
+          </Link>
+        </div>
       </div>
       <div className="w-10/12 lg:w-1/2 flex flex-col mx-auto">
         <SkillsImages />
