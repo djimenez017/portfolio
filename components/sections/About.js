@@ -14,7 +14,7 @@ export default function About() {
           I am a web developer with 5 years of coding experience and 2 years of
           professional work. I am driven by a passion for learning and staying
           current with the latest techniques and best practices. I am not just a
-          developer; I am a lifelong learner.
+          developer. I am a lifelong learner.
           <br />
         </p>{" "}
         <br />
