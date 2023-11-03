@@ -78,8 +78,8 @@ export default function CareerAccordion() {
           </li>
           <li>
             {" "}
-            • Maintained and updated Exact Staff's corporate website built with
-            WordPress, achieving a 26% increase in conversion rate.
+            • Maintained and updated the Exact Staff corporate website built
+            with WordPress, achieving a 26% increase in conversion rate.
           </li>
         </ul>
       </details>{" "}
