@@ -23,3 +23,27 @@ body {
   background: #1d1d1d;
   color: #f4f4f4;
 }
+
+::-webkit-scrollbar {
+  width: 10px; /* Change scrollbar width */
+}
+
+/* Customize the scrollbar thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+  background: #ed6f07; /* Change thumb color */
+  /* Add rounded corners */
+}
+
+/* Customize the scrollbar track on Firefox */
+* {
+  scrollbar-width: thin; /* Change scrollbar width on Firefox */
+}
+
+*::-webkit-scrollbar-track {
+  background: #1d1d1d; /* Change track color on Firefox */
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #ed6f07; /* Change thumb color on Firefox */
+  border-radius: 5px; /* Add rounded corners on Firefox */
+}
