@@ -8,8 +8,9 @@ export default function Home() {
   return (
     <main className="mx-auto">
       <section
-        className="max-w-screen-xl mx-auto h-screen flex items-center justify-center lg:w-5/6"
+        className="max-w-screen-xl h-screen mx-auto flex items-center justify-center lg:w-5/6"
         id="Home"
+        style={{ position: "relative", top: "-80px" }}
       >
         <Landing />
       </section>

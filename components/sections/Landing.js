@@ -6,12 +6,12 @@ import Link from "next/link";
 export default function Landing() {
   return (
     <div className="md:w-full flex flex-col md:flex-row ">
-      <div className=" w-10/12 lg:w-1/2 flex flex-col mx-auto ">
+      <div className=" w-11/12 lg:w-1/2 flex flex-col mx-auto ">
         <div className=" md:mx-auto text-left">
-          <p className="text-lightGrey text-sm lg:text-lg">
+          <p className="text-lightGrey text-md lg:text-lg">
             Hello there, my name is
           </p>
-          <h1 className="text-4xl lg:text-6xl font-bold py-6 text-orange">
+          <h1 className="text-5xl lg:text-6xl font-bold pb-6 text-orange">
             Daniel Jimenez
           </h1>
           <p className="text-white text-lg lg:text-2xl">
@@ -29,7 +29,7 @@ export default function Landing() {
               rel="noopener noreferrer"
               locale={false}
               download
-              className="w-48 border-2 px-6 py-3 border-orange flex justify-around items-center text-orange cursor-pointer hover:bg-orange hover:text-white transition duration-300 ease-in-out lg:text-lg"
+              className="w-36 lg:w-48 border-2 px-6 py-3 border-orange flex justify-around items-center text-orange cursor-pointer hover:bg-orange hover:text-white transition duration-300 ease-in-out lg:text-lg"
             >
               My Resume
             </Link>

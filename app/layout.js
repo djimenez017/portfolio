@@ -1,7 +1,14 @@
 import "./globals.css";
 import Navigation from "@/components/navigation/Navigation";
 import Footer from "@/components/sections/Footer";
-import localFont from "next/font/local";
+import { Poppins } from "next/font/google";
+
+const poppins = Poppins({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-poppin",
+  weight: "300",
+});
 
 export const metadata = {
   title: "Daniel Jimenez | Web Developer",
@@ -11,7 +18,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang="en" className={`scroll-smooth font-sans ${poppins.variable}`}>
       <body>
         {" "}
         <Navigation />

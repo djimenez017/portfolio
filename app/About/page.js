@@ -14,17 +14,20 @@ export default function page() {
           About
         </h2>
         <p>
-          I Graduated from California State University, Northridge with a
-          Bachelor of Science in Computer Information Technology with a Minor in
-          Graphic Design. My passion for development began in my senior year in
-          college, i took a web development class and i know at that point i
-          wanted to change my career.
+          I earned my Bachelor of Science degree in Computer Information
+          Technology with a Minor in Graphic Design from California State
+          University, Northridge. My journey into the world of development
+          commenced during my senior year of college when I enrolled in a web
+          development course. It was during this time that I realized my passion
+          for this field, prompting me to consider a career change.
           <br />
           <br />
-          My first job out of college was a IT Helpdesk position, but i was able
-          to assist the Web Developer with many projects which increased and
-          strenghtened my knowledge working with technologies such as
-          Javascript, and ReactJS.
+          Upon graduating, my first job was in an IT Helpdesk position. While it
+          wasn't directly related to web development, I actively supported the
+          Web Developer on various projects. This hands-on experience
+          significantly bolstered my proficiency with technologies like
+          JavaScript and ReactJS, solidifying my commitment to the field of web
+          development.
         </p>
         <div>
           <br />

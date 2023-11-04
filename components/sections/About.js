@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function About() {
   return (
-    <div className="flex flex-col lg:flex-row ">
+    <div className="flex flex-col lg:flex-row items-center">
       <div className="w-10/12 lg:w-1/2 flex flex-col mx-auto ">
         <h2 className="text-2xl lg:text-5xl font-bold py-6 text-orange ">
           About
@@ -36,6 +36,8 @@ export default function About() {
         </div>
       </div>
       <div className="w-10/12 lg:w-1/2 flex flex-col mx-auto">
+        <br />
+        <br />
         <SkillsImages />
       </div>
     </div>

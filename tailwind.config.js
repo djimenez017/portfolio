@@ -23,10 +23,7 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        fontFamily: {
-          custom: ["var(--font-custom)"],
-          custom2: ["var(--font-custom2)"],
-        },
+        sans: ["var(--font-poppin)"],
       },
     },
   },

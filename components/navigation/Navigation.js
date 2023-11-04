@@ -26,11 +26,11 @@ function Navigation() {
 
   return (
     <header
-      className={`w-full flex justify-evenly lg:justify-around items-center transition-all duration-300 ${
+      className={`w-full flex justify-evenly lg:justify-around items-center transition-all duration-300 z-20 ${
         scrolling ? "bg-black sticky top-0 " : ""
       }`}
     >
-      <nav className="flex flex-row w-11/12 text-white p-4 justify-between list-none max-w-screen-2xl text-center md:space-around lg:w-[1200px]">
+      <nav className="flex flex-row w-11/12 text-white p-4 justify-between list-none max-w-screen-2xl  z-20 text-center md:space-around lg:w-[1200px]">
         <Link href="/">
           {" "}
           <Image src={Logo} width={40} height={40} alt="Daniel Jimenez" />
