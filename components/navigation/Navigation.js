@@ -7,7 +7,9 @@ import HamburgerMenu from "../ui/HamburgerMenu";
 
 function Navigation() {
   const [scrolling, setScrolling] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
+  console.log(mobileMenuOpen);
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 0) {
@@ -61,7 +63,36 @@ function Navigation() {
           Contact
         </Link>
 
-        <HamburgerMenu />
+        <HamburgerMenu
+          toggleMenu={() => setMobileMenuOpen(!mobileMenuOpen)}
+          isOpen={mobileMenuOpen}
+        />
+
+        {mobileMenuOpen && (
+          <div className="md:hidden absolute top-14 left-0 right-0 bg-grey shadow-lg">
+            <Link
+              href="/#About"
+              className="block p-4 text-white  hover:text-orange active:bg-orange transition duration-300 ease-in-out"
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            >
+              About
+            </Link>
+            <Link
+              href="/#Projects"
+              className="block p-4 text-white  hover:text-orange active:bg-orange transition duration-300 ease-in-out"
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            >
+              Projects
+            </Link>
+            <Link
+              href="/#Contact"
+              className="block p-4 text-white  hover:text-orange active:bg-orange transition duration-300 ease-in-out"
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            >
+              Contact
+            </Link>
+          </div>
+        )}
       </nav>
     </header>
   );
