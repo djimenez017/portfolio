@@ -15,7 +15,7 @@ export default function About() {
           years of professional work. My motivation is fueled by a relentless
           passion for continuous learning and staying abreast of the most
           current techniques and industry best practices. I don't simply
-          consider myself a developer; I am a dedicated lifelong learner.
+          consider myself a developer. I am a dedicated lifelong learner.
           <br />
         </p>{" "}
         <br />
