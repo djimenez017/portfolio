@@ -11,7 +11,7 @@ export default function Contact() {
       <p className="text-lg lg:text-xl">
         Up for some casual chat about JavaScript, movies, or video games? <br />{" "}
         Feel free to reach out if you want to discuss my experiences or need a
-        hand with a project. I'm all ears!
+        hand with a project. Im all ears!
       </p>
       <br />
       <br />
