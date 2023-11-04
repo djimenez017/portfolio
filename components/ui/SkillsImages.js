@@ -9,7 +9,7 @@ import { SiNextdotjs, SiApollographql, SiPrisma } from "react-icons/si";
 export default function SkillsImages() {
   return (
     <div className="mx-auto">
-      <div className="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-3 md:gap-9 gap-8 text-5xl md:text-8xl">
+      <div className="hidden lg:grid grid-cols-5 lg:grid-cols-3 md:gap-9 gap-8 text-5xl md:text-8xl">
         <IconWithHoverHighlight icon={<FaHtml5 />} title="HTML" />
         <IconWithHoverHighlight icon={<FaCss3Alt />} title="CSS" />
         <IconWithHoverHighlight

@@ -8,9 +8,7 @@ export default function Landing() {
     <div className="md:w-full flex flex-col md:flex-row ">
       <div className=" w-11/12 lg:w-1/2 flex flex-col mx-auto ">
         <div className=" md:mx-auto text-left">
-          <p className="text-lightGrey text-md lg:text-lg">
-            Hello there, my name is
-          </p>
+          <p className="text-lightGrey text-lg mb-2">Hello there, my name is</p>
           <h1 className="text-5xl lg:text-6xl font-bold pb-6 text-orange">
             Daniel Jimenez
           </h1>

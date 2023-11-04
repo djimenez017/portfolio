@@ -17,7 +17,7 @@ export default function Card({
   const techStack = JSON.stringify(tech);
 
   return (
-    <div className="bg-grey border border-orange max-w-sm dark:bg-gray-800 dark:border-gray-700 md:mr-5 mb-5">
+    <div className="bg-grey border border-orange max-w-sm dark:bg-gray-800 dark:border-gray-700 m-3 ">
       <Image
         src={image}
         height={300}
@@ -58,11 +58,11 @@ export default function Card({
                 id,
               },
             }}
-            className="w-38 lg:w-48 border-2 px-6 py-3 border-orange flex justify-around items-center text-orange cursor-pointer hover:bg-orange hover:text-white transition duration-300 ease-in-out  lg:text-lg"
+            className="w-38 lg:w-48 border-2 px-6 py-3 border-orange flex justify-around items-center text-orange cursor-pointer hover:bg-orange hover:text-white transition duration-300 ease-in-out lg:text-lg"
           >
             View More
           </Link>
-          <Button href={url} target={"_blank"} customClasses="ml-2">
+          <Button href={url} target={"_blank"} customClasses="ml-1">
             Live Site
           </Button>
         </div>

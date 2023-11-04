@@ -9,9 +9,9 @@ export default function Contact() {
         Contact Me
       </h2>
       <p className="text-lg lg:text-xl">
-        Want to talk about Javascript, movies, or video games? <br /> Reach out
-        to me if you would like to talk about my experiences or if you need help
-        with a project.
+        Up for some casual chat about JavaScript, movies, or video games? <br />{" "}
+        Feel free to reach out if you want to discuss my experiences or need a
+        hand with a project. I'm all ears!
       </p>
       <br />
       <br />
@@ -20,7 +20,7 @@ export default function Contact() {
           href={"mailto:djimenez017@gmail.com"}
           flexDirection="row"
           text="Email Me"
-          customClasses="mb-4"
+          customClasses="mb-4 w-52"
         >
           <AiOutlineMail />
         </Button>
@@ -29,7 +29,7 @@ export default function Contact() {
           target={"_blank"}
           flexDirection="row"
           text="X"
-          customClasses="mb-4"
+          customClasses="mb-4 w-52"
         >
           <RiTwitterXFill />
         </Button>
@@ -38,7 +38,7 @@ export default function Contact() {
           target={"_blank"}
           flexDirection="row"
           text="GitHub"
-          customClasses="mb-4"
+          customClasses="mb-4 w-52"
         >
           <AiFillGithub />
         </Button>
@@ -47,6 +47,7 @@ export default function Contact() {
           target={"_blank"}
           flexDirection="row"
           text="LinkedIn"
+          customClasses="w-52"
         >
           <AiFillLinkedin />
         </Button>
