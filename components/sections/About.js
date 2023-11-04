@@ -11,10 +11,11 @@ export default function About() {
           About
         </h2>
         <p className="text-lg lg:text-xl lg:pr-10">
-          I am a web developer with 5 years of coding experience and 2 years of
-          professional work. I am driven by a passion for learning and staying
-          current with the latest techniques and best practices. I am not just a
-          developer. I am a lifelong learner.
+          I am a web developer with 5 years of coding experience, including 2
+          years of professional work. My motivation is fueled by a relentless
+          passion for continuous learning and staying abreast of the most
+          current techniques and industry best practices. I don't simply
+          consider myself a developer; I am a dedicated lifelong learner.
           <br />
         </p>{" "}
         <br />

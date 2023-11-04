@@ -23,7 +23,7 @@ export default function page() {
           <br />
           <br />
           Upon graduating, my first job was in an IT Helpdesk position. While it
-          wasn't directly related to web development, I actively supported the
+          wasn not directly related to web development, I actively supported the
           Web Developer on various projects. This hands-on experience
           significantly bolstered my proficiency with technologies like
           JavaScript and ReactJS, solidifying my commitment to the field of web
