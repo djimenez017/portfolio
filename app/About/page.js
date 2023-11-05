@@ -36,20 +36,22 @@ export default function page() {
           </h3>
         </div>
         <div>
-          <div className="flex justify-between items-center ">
-            <h3 className="text-xl lg:text-2xl font-bold py-6  ">
+          <div className="flex flex-col md:flex-row md:justify-between md:items-center ">
+            <h3 className="text-xl lg:text-2xl font-bold py-2">
               California State University, Northridge
             </h3>
             <p className="text-xl">May 2012 - May 2018</p>
           </div>
+          <br />
           <p>Bachelor of Science, Computer Information Technology</p>
         </div>
         <div>
           <br />
-          <div className="flex justify-between items-center ">
-            <h3 className="text-xl lg:text-2xl font-bold py-6 ">Coursera</h3>
+          <div className="flex flex-col md:flex-row md:justify-between md:items-center ">
+            <h3 className="text-xl lg:text-2xl font-bold py-2">Coursera</h3>
             <p className="text-xl"> Jan 2023 - Sep 2023</p>
           </div>
+          <br />
           <p>Meta Front-End Developer Specialization</p>
         </div>
         <br />

@@ -1,7 +1,6 @@
 "use client";
 import { useSearchParams } from "next/navigation";
 import Image from "next/image";
-import Link from "next/link";
 import Expense from "@/assets/images/Projects/expenses.gif";
 import Lemon from "@/assets/images/Projects/LittleLemon.png";
 import Jmg from "@/assets/images/Projects/jmg.png";
@@ -20,9 +19,9 @@ export default function Page() {
 
   const techStack = JSON.parse(tech);
 
-  const stack = techStack.map((techs) => {
+  const stack = techStack.map((techs, index) => {
     return (
-      <span className="bg-orange px-2 py-1 mr-2 mt-2" key={id}>
+      <span className="bg-orange px-2 py-1 mr-2 mt-2" key={index}>
         {techs}
       </span>
     );

@@ -4,7 +4,7 @@ export default function CareerAccordion() {
   return (
     <div>
       <details>
-        <summary className="flex justify-between">
+        <summary className="flex flex-col md:flex-row md:justify-between md:items-center ">
           <p className="text-orange text-xl">
             MedPOINT Management - Project Coordinator
           </p>
@@ -46,7 +46,7 @@ export default function CareerAccordion() {
       </details>
       <br />
       <details>
-        <summary className="flex justify-between">
+        <summary className="flex flex-col md:flex-row md:justify-between md:items-center ">
           <p className="text-orange text-xl">Exact Staff - Web Developer</p>
           <span>03/2020 - 04/22</span>
         </summary>
