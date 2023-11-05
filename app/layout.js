@@ -2,6 +2,7 @@ import "./globals.css";
 import Navigation from "@/components/navigation/Navigation";
 import Footer from "@/components/sections/Footer";
 import { Poppins } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -15,17 +16,11 @@ export const metadata = {
   description:
     "Web Developer with a passion for creating stunning and functional web applications",
   openGraph: {
-    title: "Next.js",
-    description: "The React Framework for the Web",
-    url: "<https://nextjs.org>",
-    siteName: "Next.js",
-    images: [
-      {
-        url: "<https://example.com/api/preview>",
-        width: 1200,
-        height: 600,
-      },
-    ],
+    title: "Daniel Jimenez | Web Developer",
+    description:
+      "Web Developer with a passion for creating stunning and functional web applications",
+    url: "https://jimenez.tech>",
+    siteName: "Daniel JImenez",
   },
 };
 
@@ -35,7 +30,7 @@ export default function RootLayout({ children }) {
       <body>
         {" "}
         <Navigation />
-        {children}
+        {children} <Analytics />
         <Footer />
       </body>
     </html>

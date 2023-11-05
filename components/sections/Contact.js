@@ -1,5 +1,6 @@
 import { AiOutlineMail, AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { RiTwitterXFill } from "react-icons/ri";
+import { SiHashnode } from "react-icons/si";
 import Button from "../ui/Button";
 
 export default function Contact() {
@@ -50,6 +51,15 @@ export default function Contact() {
           customClasses="w-52"
         >
           <AiFillLinkedin />
+        </Button>
+        <Button
+          href={"https://blog.jimenez.tech"}
+          target={"_blank"}
+          flexDirection="row"
+          text="Hashnode"
+          customClasses="w-52"
+        >
+          <SiHashnode />
         </Button>
       </div>
     </div>
