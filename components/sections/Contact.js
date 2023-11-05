@@ -48,7 +48,7 @@ export default function Contact() {
           target={"_blank"}
           flexDirection="row"
           text="LinkedIn"
-          customClasses="w-52"
+          customClasses="mb-4 w-52"
         >
           <AiFillLinkedin />
         </Button>
