@@ -12,7 +12,7 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "My Portfolio",
+  title: "Daniel Jimenez | Web Developer & SysAdmin",
   description: "Daniel Jimenez – Web Developer & SysAdmin",
   metadataBase: new URL("https://www.jimenez.tech"),
   // openGraph: {
