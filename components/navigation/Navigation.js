@@ -4,6 +4,13 @@ import Link from "next/link";
 import Image from "next/image";
 import Logo from "@/assets/images/logo.svg";
 import HamburgerMenu from "../ui/HamburgerMenu";
+import NavigationLink from "./NavigationLink";
+
+const links = [
+  { href: "/#About", label: "About" },
+  { href: "/#Projects", label: "Projects" },
+  { href: "/#Contact", label: "Contact" },
+];
 
 function Navigation() {
   const [scrolling, setScrolling] = useState(false);
@@ -34,16 +41,13 @@ function Navigation() {
           </div>
 
           {/* Nav Links */}
+
           <div className="hidden md:flex space-x-10 uppercase lg:text-xl">
-            <Link href="/#About" className="hover:text-orange transition">
-              About
-            </Link>
-            <Link href="/#Projects" className="hover:text-orange transition">
-              Projects
-            </Link>
-            <Link href="/#Contact" className="hover:text-orange transition">
-              Contact
-            </Link>
+            {links.map((link) => (
+              <NavigationLink href={link.href} key={link.href}>
+                {link.label}
+              </NavigationLink>
+            ))}
           </div>
 
           {/* Hamburger */}
@@ -58,28 +62,17 @@ function Navigation() {
 
       {/* Mobile Menu */}
       {mobileMenuOpen && (
-        <div className="absolute top-14 left-0 right-0 z-30 bg-grey shadow-lg">
-          <Link
-            href="/#About"
-            className="block p-4 text-white hover:text-orange transition"
-            onClick={() => setMobileMenuOpen(false)}
-          >
-            About
-          </Link>
-          <Link
-            href="/#Projects"
-            className="block p-4 text-white hover:text-orange transition"
-            onClick={() => setMobileMenuOpen(false)}
-          >
-            Projects
-          </Link>
-          <Link
-            href="/#Contact"
-            className="block p-4 text-white hover:text-orange transition"
-            onClick={() => setMobileMenuOpen(false)}
-          >
-            Contact
-          </Link>
+        <div className="absolute top-14 left-0 right-0 z-30 bg-black shadow-lg font-blackhawk flex flex-col text-2xl text-right pr-10 py-5 justify-between">
+          {links.map((link) => (
+            <NavigationLink
+              href={link.href}
+              key={link.href}
+              onClick={() => setMobileMenuOpen(false)}
+              classes={"block p-40 text-white"}
+            >
+              {link.label}
+            </NavigationLink>
+          ))}
         </div>
       )}
     </header>
