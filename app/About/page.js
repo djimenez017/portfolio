@@ -10,29 +10,30 @@ export default function page() {
   return (
     <div className="flex flex-col lg:flex-row mt-5 ">
       <div className="w-10/12 lg:w-1/2 flex flex-col mx-auto ">
-        <h2 className="text-2xl lg:text-5xl font-bold py-6 text-orange ">
+        <h2 className="text-2xl lg:text-5xl font-bold py-6 text-orange font-blackhawk">
           About
         </h2>
         <p>
-          I earned my Bachelor of Science degree in Computer Information
-          Technology with a Minor in Graphic Design from California State
-          University, Northridge. My journey into the world of development
-          commenced during my senior year of college when I enrolled in a web
-          development course. It was during this time that I realized my passion
-          for this field, prompting me to consider a career change.
+          I earned a Bachelor of Science in Computer Information Technology,
+          with a Minor in Graphic Design, from California State University,
+          Northridge. My interest in web development began during my senior year
+          when I took a dedicated web development course an experience that
+          sparked a genuine passion for building interactive and user-focused
+          applications.
           <br />
           <br />
-          Upon graduating, my first job was in an IT Helpdesk position. While it
-          wasn not directly related to web development, I actively supported the
-          Web Developer on various projects. This hands-on experience
-          significantly bolstered my proficiency with technologies like
-          JavaScript and ReactJS, solidifying my commitment to the field of web
-          development.
+          After graduation, I began my career in an IT Helpdesk role, which,
+          while not directly focused on development, gave me the opportunity to
+          collaborate closely with the companys Web Developer. I contributed to
+          various projects and gained hands-on experience with technologies such
+          as JavaScript and ReactJS. This exposure not only deepened my
+          technical skills but also reinforced my desire to pursue a career in
+          web development.
         </p>
         <div>
           <br />
-          <h3 className="text-xl lg:text-3xl font-bold py-6 text-orange ">
-            Credentials
+          <h3 className="text-xl lg:text-3xl font-bold py-6 text-orange font-blackhawk">
+            Degrees and Certifications
           </h3>
         </div>
         <div>
@@ -56,8 +57,8 @@ export default function page() {
         </div>
         <br />
         <br />
-        <h3 className="text-xl lg:text-3xl font-bold py-6 text-orange ">
-          Work History
+        <h3 className="text-xl lg:text-3xl font-bold py-6 text-orange font-blackhawk">
+          Professional Experience
         </h3>
         <CareerAccordion />
       </div>

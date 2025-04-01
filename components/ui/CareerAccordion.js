@@ -3,83 +3,68 @@ import React from "react";
 export default function CareerAccordion() {
   return (
     <div>
-      <details>
+      <details open>
         <summary className="flex flex-col md:flex-row md:justify-between md:items-center ">
-          <p className="text-orange text-xl">
-            MedPOINT Management - Project Coordinator
+          <p className=" text-xl">
+            MedPOINT Management - System Administrator I
           </p>
           <span>04/2022 - Present</span>
         </summary>{" "}
         <br />
-        <ul>
-          <li>
-            {" "}
-            • Leading and managing IT project teams to ensure successful
-            delivery of projects within scope and timeline, while maintaining
-            compliance with HIPAA regulations resulting in a 15% operational
-            efficiency.{" "}
+        <ul className="list-disc">
+          <li className="marker:text-orange">
+            Manage and maintain ESXi and vCenter infrastructure supporting
+            1,000+ users in a highly available environment.
           </li>
-          <li>
-            {" "}
-            • Worked closely with project stakeholders, including team members,
-            vendors, and customers, to identify project requirements and manage
-            expectations.{" "}
+          <li className="marker:text-orange">
+            Implement and monitor Veeam backup solutions, ensuring secure,
+            reliable data protection and disaster recovery.
           </li>
-          <li>
-            {" "}
-            • Created and maintained project plans, status reports, company
-            policies, and other project-related documentation.
+          <li className="marker:text-orange">
+            Administer Microsoft 365 tenant, including Exchange, OneDrive,
+            Intune, and Azure AD, improving collaboration and security.
           </li>
-          <li>
-            {" "}
-            • Conducted regular project team meetings to review project
-            progress, address issues and risks, and assign action items
-            resulting in an increase in project transparency and accuracy.
+          <li className="marker:text-orange">
+            Deploy and manage software for on-premises and remote environments
+            using tools like PDQ Deploy and NinjaOne.
           </li>
-          <li>
-            {" "}
-            • Collaborating with compliance and legal teams to ensure that all
-            HIPAA-related policies and procedures are in place and being
-            followed.
+          <li className="marker:text-orange">
+            Maintain documentation supporting SOC 1/2 and HITRUST compliance
+            audits.
+          </li>
+          <li className="marker:text-orange">
+            Automate repetitive tasks using PowerShell to streamline user
+            provisioning, device management, and reporting.
           </li>
         </ul>
       </details>
       <br />
-      <details>
+      <details open>
         <summary className="flex flex-col md:flex-row md:justify-between md:items-center ">
-          <p className="text-orange text-xl">Exact Staff - Web Developer</p>
+          <p className="text-xl">Exact Staff - Web Developer</p>
           <span>03/2020 - 04/22</span>
         </summary>
         <br />
-        <ul>
-          <li>
-            {" "}
-            • Designed and developed the front-end of a job board utilizing
-            NextJS and GraphQL, resulting in increased engagement with
-            associates and improved matching of candidates with employers.
+        <ul className="list-disc">
+          <li className="marker:text-orange">
+            Developed and maintained a job board front end using Next.js,
+            enhancing user experience and engagement.
           </li>
-          <li>
-            {" "}
-            • Ensured compliance with California-required training and
-            simplified onboarding for over 3,000 associates by maintaining and
-            updating a training web portal using ReactJS, Typescript, and
-            GraphQL.
+          <li className="marker:text-orange">
+            Built and supported a ReactJS-based employee training portal with
+            TypeScript and GraphQL.
           </li>
-          <li>
-            {" "}
-            • Developed an Electron and React-based signage system to deliver
-            daily updates on open positions across 20 offices.
+          <li className="marker:text-orange">
+            Writing SQL queries for generating reports and data insights used by
+            executives and HR teams.
           </li>
-          <li>
-            {" "}
-            • Performed regular maintenance tasks, including bug fixes, updates,
-            and security patches, on various websites and web applications,
-            ensuring smooth functionality and optimal performance.
+          <li className="marker:text-orange">
+            Supported IT operations including AD user account management,
+            endpoint configuration, and basic networking.
           </li>
-          <li>
-            {" "}
-            • Maintained and updated the Exact Staff corporate website built
-            with WordPress, achieving a 26% increase in conversion rate.
+          <li className="marker:text-orange">
+            Created internal tools and scripts to automate tasks, reducing
+            manual workload and support requests.
           </li>
         </ul>
       </details>{" "}

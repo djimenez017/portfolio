@@ -12,15 +12,16 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Daniel Jimenez | Web Developer",
-  description:
-    "Web Developer with a passion for creating stunning and functional web applications",
-  openGraph: {
-    title: "Daniel Jimenez | Web Developer",
-    description:
-      "Web Developer with a passion for creating stunning and functional web applications",
-    url: "https://jimenez.tech>",
-    siteName: "Daniel JImenez",
+  title: "My Portfolio",
+  description: "Daniel Jimenez – Web Developer & SysAdmin",
+  metadataBase: new URL("https://www.jimenez.tech"),
+  // openGraph: {
+  //images: ["/og-image.png"],
+  //},
+  twitter: {
+    //card: "summary_large_image",
+    title: "Daniel Jimenez Portfolio",
+    //images: ["/twitter-card.png"],
   },
 };
 

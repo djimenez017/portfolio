@@ -3,9 +3,7 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
-
-    // Or if using `src` directory:
-    "./src/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/**/*.{js,ts,jsx,tsx,mdx}", // if using /src
   ],
   theme: {
     colors: {
@@ -23,7 +21,11 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        sans: ["var(--font-poppin)"],
+        // Default sans using CSS variable (like Poppins via @next/font or Google Fonts)
+        sans: ["var(--font-poppin)", "sans-serif"],
+
+        // Custom fonts
+        blackhawk: ['"Blackhawk"', "sans-serif"],
       },
     },
   },

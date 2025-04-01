@@ -6,7 +6,7 @@ import Button from "../ui/Button";
 export default function Contact() {
   return (
     <div className="flex flex-col items-center text-center w-10/12">
-      <h2 className="text-2xl lg:text-5xl font-bold py-6 text-orange ">
+      <h2 className="text-2xl lg:text-5xl font-bold py-6 text-orange font-blackhawk ">
         Contact Me
       </h2>
       <p className="text-lg lg:text-xl">

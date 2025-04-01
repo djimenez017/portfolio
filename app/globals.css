@@ -1,13 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @font-face {
   font-family: "Blackhawk";
-  src: url("/fonts/4ced8776-2ebb-4c9a-9bae-1af0da9ca831.woff2") format("woff2"),
-    url("/fonts/3d0e9b2d-4de0-4c48-a786-9fce71536001.woff") format("woff");
-  /* Add more font formats if needed */
-  font-weight: normal;
+  src: url("/fonts/3d0e9b2d-4de0-4c48-a786-9fce71536001.woff") format("woff2");
+  font-weight: 700;
   font-style: normal;
+  font-display: swap;
 }
 
 * {

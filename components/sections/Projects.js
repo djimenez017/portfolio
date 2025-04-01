@@ -21,7 +21,7 @@ export default function Projects() {
   return (
     <div className="flex flex-col lg:flex-row ">
       <div className=" flex flex-col mx-auto ">
-        <h2 className="text-2xl lg:text-5xl text-center font-bold py-6 text-orange">
+        <h2 className="text-2xl lg:text-5xl text-center font-bold py-6 text-orange font-blackhawk">
           Projects{" "}
         </h2>
         <div className="flex items-center justify-center flex-wrap lg:flex-nowrap ">
