@@ -21,7 +21,7 @@ function Navigation() {
   return (
     <header
       className={`w-full transition-all duration-300 z-20 ${
-        scrolling ? "bg-black sticky top-0" : ""
+        scrolling ? "bg-black sticky top-0" : "relative"
       }`}
     >
       <div className="max-w-[1200px] w-11/12 mx-auto">
@@ -58,7 +58,7 @@ function Navigation() {
 
       {/* Mobile Menu */}
       {mobileMenuOpen && (
-        <div className="md:hidden absolute top-14 left-0 right-0 bg-grey shadow-lg z-30">
+        <div className="absolute top-14 left-0 right-0 z-30 bg-grey shadow-lg">
           <Link
             href="/#About"
             className="block p-4 text-white hover:text-orange transition"
