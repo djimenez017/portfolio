@@ -22,7 +22,7 @@ export default function Landing() {
               Contact
             </Button>
             <Link
-              href={"/DanielJimenez-WebDeveloper.pdf"}
+              href={"/DanielJimenez.pdf"}
               target="_blank"
               rel="noopener noreferrer"
               locale={false}
