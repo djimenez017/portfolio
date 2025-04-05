@@ -10,12 +10,20 @@ export default function About() {
         <h2 className="text-2xl lg:text-5xl font-bold py-6 text-orange font-blackhawk">
           About
         </h2>
-        <p className="text-lg lg:text-xl lg:pr-10">
-          I am a web developer with 5 years of coding experience, including 2
-          years of professional work. My motivation is fueled by a relentless
-          passion for continuous learning and staying abreast of the most
-          current techniques and industry best practices. I dont simply consider
-          myself a developer. I am a dedicated lifelong learner.
+        <p className="text-md lg:text-xl lg:pr-10 ">
+          I started my tech career right out of college at Exact Staff, working
+          in IT support. With a background in Computer Information Technology
+          and a strong interest in web development, I quickly transitioned into
+          front-end work contributing to internal tools and business websites
+          using JavaScript and React. <br /> <br />
+          That initiative led to a promotion into a dedicated Web Developer
+          role, where I built real-world applications and expanded my knowledge
+          in TypeScript, GraphQL, and modern development workflows. <br />{" "}
+          <br />
+          Today, Im bringing together my development skills and systems
+          background to pursue full-time or freelance roles in front-end or
+          full-stack development. I love solving problems with clean, scalable
+          code and Im always learning.
           <br />
         </p>{" "}
         <br />
@@ -30,7 +38,7 @@ export default function About() {
             rel="noopener noreferrer"
             locale={false}
             download
-            className="w-48 border-2 px-6 py-3 border-orange flex justify-around items-center text-orange cursor-pointer hover:bg-orange hover:text-white transition duration-300 ease-in-out lg:text-lg"
+            className="font-blackhawk w-48 border-2 px-6 py-3 lg:text-3xl border-orange flex justify-around items-center text-orange cursor-pointer hover:bg-orange hover:text-white transition duration-300 ease-in-out "
           >
             My Resume
           </Link>

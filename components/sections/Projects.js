@@ -1,33 +1,18 @@
 import ProjectsList from "@/assets/files/Projects";
 import Card from "@/components/ui/Card";
 
-const ListofProjects = ProjectsList.map((project) => {
-  return (
-    <Card
-      title={project.title}
-      url={project.url}
-      git1={project.github}
-      git2={project.github2}
-      tech={project.tech}
-      description={project.description}
-      image={project.image}
-      link={project.link}
-      key={project.id}
-    />
-  );
-});
-
 export default function Projects() {
   return (
-    <div className="flex flex-col lg:flex-row ">
-      <div className=" flex flex-col mx-auto ">
-        <h2 className="text-2xl lg:text-5xl text-center font-bold py-6 text-orange font-blackhawk">
-          Projects{" "}
-        </h2>
-        <div className="flex items-center justify-center flex-wrap lg:flex-nowrap ">
-          {ListofProjects}
-        </div>
+    <section className="w-full px-2 py-8">
+      <h2 className="text-2xl lg:text-5xl text-center font-bold text-orange font-blackhawk mb-10">
+        Projects
+      </h2>
+
+      <div className="flex flex-wrap justify-center gap-2 max-w-screen-xl mx-auto">
+        {ProjectsList.map((project) => (
+          <Card key={project.id} project={project} />
+        ))}
       </div>
-    </div>
+    </section>
   );
 }

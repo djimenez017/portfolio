@@ -13,22 +13,24 @@ export default function page() {
         <h2 className="text-2xl lg:text-5xl font-bold py-6 text-orange font-blackhawk">
           About
         </h2>
+
         <p>
-          I earned a Bachelor of Science in Computer Information Technology,
-          with a Minor in Graphic Design, from California State University,
-          Northridge. My interest in web development began during my senior year
-          when I took a dedicated web development course an experience that
-          sparked a genuine passion for building interactive and user-focused
+          Im Daniel Jimenez a web developer with a background in IT systems,
+          front-end development, and automation. I earned a Bachelor of Science
+          in Computer Information Technology with a Minor in Graphic Design from
+          California State University, Northridge. My passion for development
+          began in my senior year during a web development course, where I
+          discovered the joy of turning ideas into interactive, user-focused
           applications.
           <br />
           <br />
-          After graduation, I began my career in an IT Helpdesk role, which,
-          while not directly focused on development, gave me the opportunity to
-          collaborate closely with the companys Web Developer. I contributed to
-          various projects and gained hands-on experience with technologies such
-          as JavaScript and ReactJS. This exposure not only deepened my
-          technical skills but also reinforced my desire to pursue a career in
-          web development.
+          After graduating, I started my career in IT support at Exact Staff.
+          While my initial role was in Helpdesk, my knowledge of HTML and
+          JavaScript quickly opened doors to collaborate with the companys Web
+          Developer. I contributed to front-end projects and was eventually
+          promoted to a dedicated Web Developer position — where I worked with
+          technologies like React, TypeScript, and GraphQL to build tools that
+          improved onboarding and operations.
         </p>
         <div>
           <br />

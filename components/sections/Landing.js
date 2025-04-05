@@ -13,8 +13,8 @@ export default function Landing() {
             Daniel Jimenez
           </h1>
           <p className="text-white text-lg lg:text-2xl">
-            I am a passionate Web developer with a knack for turning ideas into
-            stunning digital experiences.
+            Web Developer with a background in IT infrastructure and a passion
+            for building modern, efficient, user-focused web apps.
           </p>
           <br></br>
           <div className="flex">
@@ -27,7 +27,7 @@ export default function Landing() {
               rel="noopener noreferrer"
               locale={false}
               download
-              className="w-36 lg:w-48 border-2 px-6 py-3 border-orange flex justify-around items-center text-orange cursor-pointer hover:bg-orange hover:text-white transition duration-300 ease-in-out lg:text-lg"
+              className="w-36 lg:text-3xl lg:w-48 border-2 px-6 py-3 border-orange flex justify-around items-center text-orange cursor-pointer hover:bg-orange hover:text-white transition duration-300 ease-in-out font-blackhawk"
             >
               My Resume
             </Link>

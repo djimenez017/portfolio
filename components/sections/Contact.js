@@ -7,12 +7,11 @@ export default function Contact() {
   return (
     <div className="flex flex-col items-center text-center w-10/12">
       <h2 className="text-2xl lg:text-5xl font-bold py-6 text-orange font-blackhawk ">
-        Contact Me
+        Lets Connect
       </h2>
       <p className="text-lg lg:text-xl">
-        Up for some casual chat about JavaScript, movies, or video games? <br />{" "}
-        Feel free to reach out if you want to discuss my experiences or need a
-        hand with a project. Im all ears!
+        Whether you want to talk about JavaScript, web performance,
+        infrastructure, or even movies. Im always open to connecting.
       </p>
       <br />
       <br />
