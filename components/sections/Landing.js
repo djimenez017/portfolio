@@ -27,7 +27,7 @@ export default function Landing() {
               rel="noopener noreferrer"
               locale={false}
               download
-              className="w-36 lg:text-3xl lg:w-48 border-2 px-6 py-3 border-orange flex justify-around items-center text-orange cursor-pointer hover:bg-orange hover:text-white transition duration-300 ease-in-out font-blackhawk"
+              className="w-36 lg:text-2xl lg:w-48 border-2 px-6 py-3 border-orange flex justify-around items-center text-orange cursor-pointer hover:bg-orange hover:text-white transition duration-300 ease-in-out font-blackhawk"
             >
               My Resume
             </Link>

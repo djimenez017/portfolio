@@ -33,12 +33,12 @@ export default function About() {
             About Me
           </Button>
           <Link
-            href={"/DanielJimenez-WebDeveloper.pdf"}
+            href={"/DanielJimenez.pdf"}
             target="_blank"
             rel="noopener noreferrer"
             locale={false}
             download
-            className="font-blackhawk w-48 border-2 px-6 py-3 lg:text-3xl border-orange flex justify-around items-center text-orange cursor-pointer hover:bg-orange hover:text-white transition duration-300 ease-in-out "
+            className="font-blackhawk w-48 border-2 px-6 py-3 lg:text-2xl border-orange flex justify-around items-center text-orange cursor-pointer hover:bg-orange hover:text-white transition duration-300 ease-in-out "
           >
             My Resume
           </Link>
