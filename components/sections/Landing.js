@@ -1,11 +1,10 @@
-import Image from "next/image";
-import Logo from "@/assets/images/logo.svg";
 import Button from "@/components/ui/Button";
 import Link from "next/link";
+import AnimatedLogo from "@/components/ui/AnimatedLogo";
 
 export default function Landing() {
   return (
-    <div className="md:w-full flex flex-col md:flex-row  ">
+    <div className="md:w-11/12 flex flex-col md:flex-row  ">
       <div className=" w-11/12 lg:w-1/2 flex flex-col mx-auto ">
         <div className=" md:mx-auto text-left">
           <p className="text-lightGrey text-lg mb-2">Hello there, my name is</p>
@@ -17,7 +16,7 @@ export default function Landing() {
             for building modern, efficient, user-focused web apps.
           </p>
           <br></br>
-          <div className="flex">
+          <div className="flex flex-row gap-4 mt-8">
             <Button href={"/#Contact"} customClasses="mr-2">
               Contact
             </Button>
@@ -35,7 +34,7 @@ export default function Landing() {
         </div>
       </div>
       <div className="w-1/2 justify-center hidden lg:flex">
-        <Image src={Logo} width={350} height={350} alt="Daniel Jimenez" />
+        <AnimatedLogo size={400} />
       </div>{" "}
     </div>
   );

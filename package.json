@@ -11,9 +11,11 @@
   "dependencies": {
     "@apollo/client": "^3.8.0-rc.2",
     "@apollo/experimental-nextjs-app-support": "^0.4.3",
+    "@sanity/image-url": "^1.1.0",
     "@vercel/analytics": "^1.1.1",
     "graphql": "^16.8.1",
     "next": "latest",
+    "next-sanity": "^9.10.2",
     "react": "latest",
     "react-dom": "latest",
     "react-icons": "^4.11.0",

@@ -2,7 +2,7 @@ import Landing from "@/components/sections/Landing";
 import About from "@/components/sections/About";
 import Projects from "@/components/sections/Projects";
 import Contact from "@/components/sections/Contact";
-// import Blog from "@/components/sections/Blog";
+import Blog from "@/components/sections/Blog";
 
 export default function Home() {
   return (
@@ -29,7 +29,10 @@ export default function Home() {
         <Projects />
       </section>
 
-      {/* <section className="max-w-screen-xl mx-auto h-screen flex items-center justify-center lg:w-5/6" id="Blog">
+      {/* <section
+        className="max-w-screen-xl mx-auto h-screen flex items-center justify-center lg:w-5/6"
+        id="Blog"
+      >
         <Blog />
       </section> */}
 

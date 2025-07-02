@@ -1,0 +1,26 @@
+.logo-outline {
+  fill: transparent;
+  stroke: #ed6f07;
+  stroke-width: 4;
+  stroke-dasharray: 0;
+  stroke-dashoffset: 0;
+  transition: fill 0.6s 0.8s;
+}
+
+.logo-outline.draw {
+  animation: draw-outline 0.8s forwards;
+}
+
+.logo-outline.draw + .logo-outline {
+  animation-delay: 0.4s;
+}
+
+.logo-outline.draw.filled {
+  fill: #ed6f07;
+}
+
+@keyframes draw-outline {
+  to {
+    stroke-dashoffset: 0;
+  }
+}

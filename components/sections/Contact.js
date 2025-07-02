@@ -51,15 +51,6 @@ export default function Contact() {
         >
           <AiFillLinkedin />
         </Button>
-        <Button
-          href={"https://blog.jimenez.tech"}
-          target={"_blank"}
-          flexDirection="row"
-          text="Hashnode"
-          customClasses="w-52"
-        >
-          <SiHashnode />
-        </Button>
       </div>
     </div>
   );

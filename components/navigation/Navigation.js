@@ -9,6 +9,7 @@ import NavigationLink from "./NavigationLink";
 const links = [
   { href: "/#About", label: "About" },
   { href: "/#Projects", label: "Projects" },
+  //{ href: "/blog", label: "Blog" },
   { href: "/#Contact", label: "Contact" },
 ];
 
@@ -28,11 +29,20 @@ function Navigation() {
   return (
     <header
       className={`w-full transition-all duration-300 z-20 ${
-        scrolling ? "bg-black sticky top-0" : "relative"
-      }`}
+        scrolling ? "bg-transparent sticky top-0" : "relative"
+      } flex justify-center`}
     >
-      <div className="max-w-[1200px] w-11/12 mx-auto">
-        <nav className="flex justify-between items-center text-white py-4 font-blackhawk">
+      <div
+        className={`
+          flex-1 max-w-[380px] sm:max-w-[1300px] mx-auto
+          px-6 py-4  rounded-xl
+          transition-all duration-300
+          flex items-center justify-between
+          ${scrolling ? "bg-black/90" : "bg-transparent border-none"}
+        `}
+        style={{ marginTop: "10px" }}
+      >
+        <nav className="flex justify-between items-center text-white font-blackhawk w-full">
           {/* Logo */}
           <div>
             <Link href="/">
@@ -41,10 +51,13 @@ function Navigation() {
           </div>
 
           {/* Nav Links */}
-
-          <div className="hidden md:flex space-x-10 uppercase lg:text-xl">
+          <div className="hidden md:flex space-x-4 uppercase lg:text-xl">
             {links.map((link) => (
-              <NavigationLink href={link.href} key={link.href}>
+              <NavigationLink
+                href={link.href}
+                key={link.href}
+                scrolled={scrolling}
+              >
                 {link.label}
               </NavigationLink>
             ))}
@@ -62,13 +75,16 @@ function Navigation() {
 
       {/* Mobile Menu */}
       {mobileMenuOpen && (
-        <div className="absolute top-14 left-0 right-0 z-30 bg-black shadow-lg font-blackhawk flex flex-col text-2xl text-right pr-10 py-5 justify-between">
-          {links.map((link) => (
+        <div className="absolute top-20 left-0 right-0 z-30 bg-black shadow-xl rounded-3xl font-blackhawk flex flex-col text-2xl text-right pr-10 py-5 px-10 mx-5 justify-between animate-fade-slide-in">
+          {links.map((link, idx) => (
             <NavigationLink
               href={link.href}
               key={link.href}
               onClick={() => setMobileMenuOpen(false)}
-              classes={"block p-40 text-white"}
+              scrolled={true}
+              className={`my-2 transition-all duration-500 delay-[${
+                idx * 100
+              }ms] px-8`}
             >
               {link.label}
             </NavigationLink>

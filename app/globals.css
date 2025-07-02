@@ -47,3 +47,18 @@ body {
   background: #ed6f07; /* Change thumb color on Firefox */
   border-radius: 5px; /* Add rounded corners on Firefox */
 }
+
+@keyframes fade-slide-in {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-slide-in {
+  animation: fade-slide-in 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
